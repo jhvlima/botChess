@@ -1,0 +1,1411 @@
+{
+  "dataset_examples": {
+    "test": 4442,
+    "train": 24163,
+    "validation": 4526
+  },
+  "final_artifact": "artifacts/final_model.joblib",
+  "final_model": {
+    "name": "hist_gradient_boosting",
+    "test": {
+      "breakdowns": {
+        "color": {
+          "black": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.10503368021325014,
+            "mrr": 0.47558029263936286,
+            "positions": 2294,
+            "top1_accuracy": 0.31952920662598083,
+            "top3_accuracy": 0.5588491717523976,
+            "top5_accuracy": 0.6582388840453357
+          },
+          "white": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.11067046812617148,
+            "mrr": 0.47360245174629967,
+            "positions": 2148,
+            "top1_accuracy": 0.3123836126629423,
+            "top3_accuracy": 0.5614525139664804,
+            "top5_accuracy": 0.6638733705772812
+          }
+        },
+        "eco": {
+          "A40": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.11469047127996009,
+            "mrr": 0.47892833613682106,
+            "positions": 477,
+            "top1_accuracy": 0.31446540880503143,
+            "top3_accuracy": 0.570230607966457,
+            "top5_accuracy": 0.6708595387840671
+          },
+          "B10": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.11370522583409255,
+            "mrr": 0.50017423086686,
+            "positions": 815,
+            "top1_accuracy": 0.33496932515337424,
+            "top3_accuracy": 0.5987730061349693,
+            "top5_accuracy": 0.6993865030674846
+          },
+          "B12": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.09604373220349688,
+            "mrr": 0.4629889245668018,
+            "positions": 457,
+            "top1_accuracy": 0.3282275711159737,
+            "top3_accuracy": 0.5142231947483589,
+            "top5_accuracy": 0.6017505470459519
+          },
+          "B13": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.10269040560790525,
+            "mrr": 0.45834809544640387,
+            "positions": 263,
+            "top1_accuracy": 0.30038022813688214,
+            "top3_accuracy": 0.5285171102661597,
+            "top5_accuracy": 0.6273764258555133
+          },
+          "B18": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.1569134465515732,
+            "mrr": 0.5306570634182691,
+            "positions": 218,
+            "top1_accuracy": 0.37155963302752293,
+            "top3_accuracy": 0.6513761467889908,
+            "top5_accuracy": 0.7385321100917431
+          },
+          "D00": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.08887343294171843,
+            "mrr": 0.4595206614884065,
+            "positions": 207,
+            "top1_accuracy": 0.2946859903381642,
+            "top3_accuracy": 0.5555555555555556,
+            "top5_accuracy": 0.6763285024154589
+          },
+          "D02": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.0949788076842449,
+            "mrr": 0.45446840101902003,
+            "positions": 76,
+            "top1_accuracy": 0.3157894736842105,
+            "top3_accuracy": 0.5131578947368421,
+            "top5_accuracy": 0.618421052631579
+          },
+          "D06": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.1896160648279434,
+            "mrr": 0.6146060577918575,
+            "positions": 142,
+            "top1_accuracy": 0.49295774647887325,
+            "top3_accuracy": 0.7112676056338029,
+            "top5_accuracy": 0.7676056338028169
+          },
+          "D10": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.09936737112435078,
+            "mrr": 0.4393114418581843,
+            "positions": 302,
+            "top1_accuracy": 0.26490066225165565,
+            "top3_accuracy": 0.5397350993377483,
+            "top5_accuracy": 0.6291390728476821
+          },
+          "D20": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.12513537899567934,
+            "mrr": 0.4627861745850184,
+            "positions": 448,
+            "top1_accuracy": 0.29464285714285715,
+            "top3_accuracy": 0.546875,
+            "top5_accuracy": 0.6629464285714286
+          },
+          "D30": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.08349462588748759,
+            "mrr": 0.4203152705103783,
+            "positions": 152,
+            "top1_accuracy": 0.26973684210526316,
+            "top3_accuracy": 0.46710526315789475,
+            "top5_accuracy": 0.5921052631578947
+          },
+          "D31": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.07063377231992748,
+            "mrr": 0.41643436108443616,
+            "positions": 86,
+            "top1_accuracy": 0.2441860465116279,
+            "top3_accuracy": 0.5232558139534884,
+            "top5_accuracy": 0.5930232558139535
+          }
+        },
+        "phase": {
+          "endgame": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.1255509002180751,
+            "mrr": 0.49650469136431874,
+            "positions": 923,
+            "top1_accuracy": 0.3304442036836403,
+            "top3_accuracy": 0.5796316359696642,
+            "top5_accuracy": 0.7063921993499458
+          },
+          "middlegame": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.10635697341317821,
+            "mrr": 0.4488435936221874,
+            "positions": 2676,
+            "top1_accuracy": 0.30568011958146485,
+            "top3_accuracy": 0.5153213751868461,
+            "top5_accuracy": 0.6027653213751868
+          },
+          "opening": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.09273153759106041,
+            "mrr": 0.5325029312022551,
+            "positions": 843,
+            "top1_accuracy": 0.3333333333333333,
+            "top3_accuracy": 0.6809015421115066,
+            "top5_accuracy": 0.7959667852906287
+          }
+        },
+        "rating_bucket": {
+          "1000-1199": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.10892307960387866,
+            "mrr": 0.4887146566762139,
+            "positions": 1252,
+            "top1_accuracy": 0.33386581469648563,
+            "top3_accuracy": 0.5758785942492013,
+            "top5_accuracy": 0.6781150159744409
+          },
+          "1200-1399": {
+            "legal_prediction_rate": 1.0,
+            "mean_true_move_probability": 0.10730273739189834,
+            "mrr": 0.46909357602103935,
+            "positions": 3190,
+            "top1_accuracy": 0.3090909090909091,
+            "top3_accuracy": 0.5539184952978057,
+            "top5_accuracy": 0.6542319749216301
+          }
+        }
+      },
+      "evaluation_seconds": 20.72526313400158,
+      "invalid_targets": 0,
+      "legal_prediction_rate": 1.0,
+      "mean_true_move_probability": 0.10775943897888587,
+      "milliseconds_per_position": 4.665750367852675,
+      "mrr": 0.47462387610664686,
+      "positions": 4442,
+      "top1_accuracy": 0.3160738406123368,
+      "top3_accuracy": 0.5601080594326879,
+      "top5_accuracy": 0.6609635299414678
+    },
+    "trained_examples": 28689,
+    "training": {
+      "artifact_bytes": 219690,
+      "candidate_rows": 240201,
+      "matrix_build_seconds": 24.974099120001483,
+      "negative_rows": 211512,
+      "peak_rss_mb": 1052.0234375,
+      "positive_rows": 28689,
+      "training_seconds": 5.450009619999037
+    }
+  },
+  "models": {
+    "frequency": {
+      "artifact": "artifacts/solutions/frequency/model.joblib",
+      "test": {
+        "breakdowns": {
+          "color": {
+            "black": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09219159628625025,
+              "mrr": 0.2562805705255872,
+              "positions": 2294,
+              "top1_accuracy": 0.13208369659982563,
+              "top3_accuracy": 0.2763731473408893,
+              "top5_accuracy": 0.3561464690496949
+            },
+            "white": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09728737387894738,
+              "mrr": 0.26035861007882577,
+              "positions": 2148,
+              "top1_accuracy": 0.13221601489757914,
+              "top3_accuracy": 0.2877094972067039,
+              "top5_accuracy": 0.3729050279329609
+            }
+          },
+          "eco": {
+            "A40": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10473786342379364,
+              "mrr": 0.2851045632165986,
+              "positions": 477,
+              "top1_accuracy": 0.15723270440251572,
+              "top3_accuracy": 0.31446540880503143,
+              "top5_accuracy": 0.40041928721174
+            },
+            "B10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09865340813626021,
+              "mrr": 0.2657501079256774,
+              "positions": 815,
+              "top1_accuracy": 0.1423312883435583,
+              "top3_accuracy": 0.29938650306748466,
+              "top5_accuracy": 0.3656441717791411
+            },
+            "B12": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08150037036551622,
+              "mrr": 0.21385185916927632,
+              "positions": 457,
+              "top1_accuracy": 0.0962800875273523,
+              "top3_accuracy": 0.22319474835886213,
+              "top5_accuracy": 0.31291028446389496
+            },
+            "B13": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09725606648164827,
+              "mrr": 0.2822618593697957,
+              "positions": 263,
+              "top1_accuracy": 0.1482889733840304,
+              "top3_accuracy": 0.311787072243346,
+              "top5_accuracy": 0.3726235741444867
+            },
+            "B18": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.15643850053736702,
+              "mrr": 0.36127308415407783,
+              "positions": 218,
+              "top1_accuracy": 0.22018348623853212,
+              "top3_accuracy": 0.39908256880733944,
+              "top5_accuracy": 0.5091743119266054
+            },
+            "D00": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0776691755566867,
+              "mrr": 0.2460076028281882,
+              "positions": 207,
+              "top1_accuracy": 0.13043478260869565,
+              "top3_accuracy": 0.22705314009661837,
+              "top5_accuracy": 0.34299516908212563
+            },
+            "D02": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0686020717388295,
+              "mrr": 0.23014646939539346,
+              "positions": 76,
+              "top1_accuracy": 0.07894736842105263,
+              "top3_accuracy": 0.2894736842105263,
+              "top5_accuracy": 0.35526315789473684
+            },
+            "D06": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.17245461420076733,
+              "mrr": 0.3631953380428392,
+              "positions": 142,
+              "top1_accuracy": 0.21830985915492956,
+              "top3_accuracy": 0.44366197183098594,
+              "top5_accuracy": 0.5352112676056338
+            },
+            "D10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08842121299036332,
+              "mrr": 0.2456591770657133,
+              "positions": 302,
+              "top1_accuracy": 0.11589403973509933,
+              "top3_accuracy": 0.271523178807947,
+              "top5_accuracy": 0.33774834437086093
+            },
+            "D20": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10980758891007267,
+              "mrr": 0.25353056099594007,
+              "positions": 448,
+              "top1_accuracy": 0.13839285714285715,
+              "top3_accuracy": 0.2611607142857143,
+              "top5_accuracy": 0.35267857142857145
+            },
+            "D30": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.06302417537622566,
+              "mrr": 0.1999711683774638,
+              "positions": 152,
+              "top1_accuracy": 0.05263157894736842,
+              "top3_accuracy": 0.21052631578947367,
+              "top5_accuracy": 0.3618421052631579
+            },
+            "D31": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.06504397358228514,
+              "mrr": 0.24112082350566963,
+              "positions": 86,
+              "top1_accuracy": 0.09302325581395349,
+              "top3_accuracy": 0.29069767441860467,
+              "top5_accuracy": 0.37209302325581395
+            }
+          },
+          "phase": {
+            "endgame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.11040718268401456,
+              "mrr": 0.26811356774980594,
+              "positions": 923,
+              "top1_accuracy": 0.10725893824485373,
+              "top3_accuracy": 0.30119176598049835,
+              "top5_accuracy": 0.4268689057421452
+            },
+            "middlegame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09495301334171137,
+              "mrr": 0.21844214330737902,
+              "positions": 2676,
+              "top1_accuracy": 0.11434977578475336,
+              "top3_accuracy": 0.21898355754857998,
+              "top5_accuracy": 0.2787742899850523
+            },
+            "opening": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07646584537707227,
+              "mrr": 0.3738290921843391,
+              "positions": 843,
+              "top1_accuracy": 0.2158956109134045,
+              "top3_accuracy": 0.46026097271648875,
+              "top5_accuracy": 0.5670225385527876
+            }
+          },
+          "rating_bucket": {
+            "1000-1199": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0966740871627268,
+              "mrr": 0.26476458249652646,
+              "positions": 1252,
+              "top1_accuracy": 0.13738019169329074,
+              "top3_accuracy": 0.29073482428115016,
+              "top5_accuracy": 0.37140575079872207
+            },
+            "1200-1399": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0938635874121951,
+              "mrr": 0.2556967604856951,
+              "positions": 3190,
+              "top1_accuracy": 0.13009404388714735,
+              "top3_accuracy": 0.27836990595611283,
+              "top5_accuracy": 0.3614420062695925
+            }
+          }
+        },
+        "evaluation_seconds": 0.5885305550036719,
+        "invalid_targets": 0,
+        "legal_prediction_rate": 1.0,
+        "mean_true_move_probability": 0.09465574087632536,
+        "milliseconds_per_position": 0.1324922456109122,
+        "mrr": 0.2582525716422819,
+        "positions": 4442,
+        "top1_accuracy": 0.13214768122467357,
+        "top3_accuracy": 0.2818550202611436,
+        "top5_accuracy": 0.3642503376857272
+      },
+      "training": {
+        "artifact_bytes": 6793,
+        "candidate_rows": 24163,
+        "peak_rss_mb": 195.14453125,
+        "training_seconds": 0.012890867998066824
+      },
+      "validation": {
+        "breakdowns": {
+          "color": {
+            "black": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09394524125700957,
+              "mrr": 0.25090771639347814,
+              "positions": 2455,
+              "top1_accuracy": 0.13319755600814664,
+              "top3_accuracy": 0.2541751527494908,
+              "top5_accuracy": 0.3376782077393075
+            },
+            "white": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08525435996826045,
+              "mrr": 0.24243088278376626,
+              "positions": 2071,
+              "top1_accuracy": 0.12312892322549493,
+              "top3_accuracy": 0.2559150169000483,
+              "top5_accuracy": 0.33606953162723324
+            }
+          },
+          "eco": {
+            "A00": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.06786309963974126,
+              "mrr": 0.2342467859394832,
+              "positions": 146,
+              "top1_accuracy": 0.13013698630136986,
+              "top3_accuracy": 0.22602739726027396,
+              "top5_accuracy": 0.2808219178082192
+            },
+            "A40": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08335301696399089,
+              "mrr": 0.2376859524649867,
+              "positions": 453,
+              "top1_accuracy": 0.11920529801324503,
+              "top3_accuracy": 0.25386313465783666,
+              "top5_accuracy": 0.33112582781456956
+            },
+            "B10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07910322315881237,
+              "mrr": 0.25012076961304913,
+              "positions": 806,
+              "top1_accuracy": 0.13399503722084366,
+              "top3_accuracy": 0.2518610421836228,
+              "top5_accuracy": 0.337468982630273
+            },
+            "B12": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09876444924603782,
+              "mrr": 0.2401881810854622,
+              "positions": 554,
+              "top1_accuracy": 0.12454873646209386,
+              "top3_accuracy": 0.24548736462093862,
+              "top5_accuracy": 0.33212996389891697
+            },
+            "B13": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08835737317690597,
+              "mrr": 0.2538261408384922,
+              "positions": 190,
+              "top1_accuracy": 0.12105263157894737,
+              "top3_accuracy": 0.2736842105263158,
+              "top5_accuracy": 0.3526315789473684
+            },
+            "B18": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.11525948794919125,
+              "mrr": 0.27059723091898197,
+              "positions": 124,
+              "top1_accuracy": 0.1693548387096774,
+              "top3_accuracy": 0.2661290322580645,
+              "top5_accuracy": 0.3387096774193548
+            },
+            "D00": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.1488400238027075,
+              "mrr": 0.30966942492687527,
+              "positions": 356,
+              "top1_accuracy": 0.17415730337078653,
+              "top3_accuracy": 0.33146067415730335,
+              "top5_accuracy": 0.41853932584269665
+            },
+            "D06": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.04822639687138599,
+              "mrr": 0.1843708826728223,
+              "positions": 92,
+              "top1_accuracy": 0.07608695652173914,
+              "top3_accuracy": 0.16304347826086957,
+              "top5_accuracy": 0.25
+            },
+            "D07": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.05586946158472845,
+              "mrr": 0.19095846541611586,
+              "positions": 79,
+              "top1_accuracy": 0.08860759493670886,
+              "top3_accuracy": 0.189873417721519,
+              "top5_accuracy": 0.25316455696202533
+            },
+            "D10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.03963101407312967,
+              "mrr": 0.16719228283120918,
+              "positions": 165,
+              "top1_accuracy": 0.07272727272727272,
+              "top3_accuracy": 0.15151515151515152,
+              "top5_accuracy": 0.23030303030303031
+            },
+            "D15": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09951400371161225,
+              "mrr": 0.266587867479317,
+              "positions": 81,
+              "top1_accuracy": 0.1111111111111111,
+              "top3_accuracy": 0.2839506172839506,
+              "top5_accuracy": 0.41975308641975306
+            },
+            "D20": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09274534657415698,
+              "mrr": 0.23679909571696336,
+              "positions": 642,
+              "top1_accuracy": 0.1277258566978193,
+              "top3_accuracy": 0.23052959501557632,
+              "top5_accuracy": 0.32242990654205606
+            }
+          },
+          "phase": {
+            "endgame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10289934037775128,
+              "mrr": 0.2476494272200009,
+              "positions": 862,
+              "top1_accuracy": 0.09396751740139211,
+              "top3_accuracy": 0.2633410672853828,
+              "top5_accuracy": 0.3863109048723898
+            },
+            "middlegame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09397156510982053,
+              "mrr": 0.22450464870912784,
+              "positions": 2767,
+              "top1_accuracy": 0.11998554391037225,
+              "top3_accuracy": 0.22262378026743765,
+              "top5_accuracy": 0.28876039031441997
+            },
+            "opening": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.06519375107662373,
+              "mrr": 0.3159137488844741,
+              "positions": 897,
+              "top1_accuracy": 0.18840579710144928,
+              "top3_accuracy": 0.346711259754738,
+              "top5_accuracy": 0.43812709030100333
+            }
+          },
+          "rating_bucket": {
+            "1000-1199": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0905502333795759,
+              "mrr": 0.24791759758900406,
+              "positions": 4432,
+              "top1_accuracy": 0.1292870036101083,
+              "top3_accuracy": 0.2560920577617328,
+              "top5_accuracy": 0.33844765342960287
+            },
+            "<1000": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.06253949406327079,
+              "mrr": 0.20512776039046832,
+              "positions": 94,
+              "top1_accuracy": 0.09574468085106383,
+              "top3_accuracy": 0.20212765957446807,
+              "top5_accuracy": 0.26595744680851063
+            }
+          }
+        },
+        "evaluation_seconds": 0.594433284997649,
+        "invalid_targets": 0,
+        "legal_prediction_rate": 1.0,
+        "mean_true_move_probability": 0.0899684813920079,
+        "milliseconds_per_position": 0.1313374469725252,
+        "mrr": 0.24702890013061615,
+        "positions": 4526,
+        "top1_accuracy": 0.12859036676977464,
+        "top3_accuracy": 0.25497127706584183,
+        "top5_accuracy": 0.3369421122403889
+      }
+    },
+    "hist_gradient_boosting": {
+      "artifact": "artifacts/solutions/hist_gradient_boosting/model.joblib",
+      "test": {
+        "breakdowns": {
+          "color": {
+            "black": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10340471997080608,
+              "mrr": 0.4692526890699815,
+              "positions": 2294,
+              "top1_accuracy": 0.3121185701830863,
+              "top3_accuracy": 0.5579773321708805,
+              "top5_accuracy": 0.6530078465562337
+            },
+            "white": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10930005796565449,
+              "mrr": 0.47113283105239334,
+              "positions": 2148,
+              "top1_accuracy": 0.31052141527001864,
+              "top3_accuracy": 0.5516759776536313,
+              "top5_accuracy": 0.659217877094972
+            }
+          },
+          "eco": {
+            "A40": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.11311811912354951,
+              "mrr": 0.47327935857917175,
+              "positions": 477,
+              "top1_accuracy": 0.31027253668763105,
+              "top3_accuracy": 0.5555555555555556,
+              "top5_accuracy": 0.6645702306079665
+            },
+            "B10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.11208238030881926,
+              "mrr": 0.49736643366164107,
+              "positions": 815,
+              "top1_accuracy": 0.33496932515337424,
+              "top3_accuracy": 0.5938650306748466,
+              "top5_accuracy": 0.6920245398773006
+            },
+            "B12": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09492927226534363,
+              "mrr": 0.44378301449143465,
+              "positions": 457,
+              "top1_accuracy": 0.2975929978118162,
+              "top3_accuracy": 0.5185995623632386,
+              "top5_accuracy": 0.6148796498905909
+            },
+            "B13": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10121717154167116,
+              "mrr": 0.45498773336256554,
+              "positions": 263,
+              "top1_accuracy": 0.2889733840304182,
+              "top3_accuracy": 0.55893536121673,
+              "top5_accuracy": 0.6539923954372624
+            },
+            "B18": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.15448228356258173,
+              "mrr": 0.5121066340715006,
+              "positions": 218,
+              "top1_accuracy": 0.3440366972477064,
+              "top3_accuracy": 0.6284403669724771,
+              "top5_accuracy": 0.7293577981651376
+            },
+            "D00": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08794055810091282,
+              "mrr": 0.47580894701385773,
+              "positions": 207,
+              "top1_accuracy": 0.32367149758454106,
+              "top3_accuracy": 0.5603864734299517,
+              "top5_accuracy": 0.6473429951690821
+            },
+            "D02": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09256037727034576,
+              "mrr": 0.4557099641368948,
+              "positions": 76,
+              "top1_accuracy": 0.34210526315789475,
+              "top3_accuracy": 0.5,
+              "top5_accuracy": 0.5789473684210527
+            },
+            "D06": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.18719500275951395,
+              "mrr": 0.6184108024693643,
+              "positions": 142,
+              "top1_accuracy": 0.4859154929577465,
+              "top3_accuracy": 0.7112676056338029,
+              "top5_accuracy": 0.7816901408450704
+            },
+            "D10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09787056638973766,
+              "mrr": 0.4409199747642371,
+              "positions": 302,
+              "top1_accuracy": 0.271523178807947,
+              "top3_accuracy": 0.5264900662251656,
+              "top5_accuracy": 0.6225165562913907
+            },
+            "D20": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.12416457980325123,
+              "mrr": 0.45427593523898224,
+              "positions": 448,
+              "top1_accuracy": 0.29017857142857145,
+              "top3_accuracy": 0.5290178571428571,
+              "top5_accuracy": 0.6584821428571429
+            },
+            "D30": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08272125160174867,
+              "mrr": 0.4247347579558883,
+              "positions": 152,
+              "top1_accuracy": 0.27631578947368424,
+              "top3_accuracy": 0.47368421052631576,
+              "top5_accuracy": 0.5723684210526315
+            },
+            "D31": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.06945143552099202,
+              "mrr": 0.3977971079928509,
+              "positions": 86,
+              "top1_accuracy": 0.22093023255813954,
+              "top3_accuracy": 0.4883720930232558,
+              "top5_accuracy": 0.6046511627906976
+            }
+          },
+          "phase": {
+            "endgame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.1254596950628288,
+              "mrr": 0.4976190005517599,
+              "positions": 923,
+              "top1_accuracy": 0.3304442036836403,
+              "top3_accuracy": 0.5893824485373781,
+              "top5_accuracy": 0.7074756229685807
+            },
+            "middlegame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10553425471396138,
+              "mrr": 0.4447530992663128,
+              "positions": 2676,
+              "top1_accuracy": 0.3015695067264574,
+              "top3_accuracy": 0.5067264573991032,
+              "top5_accuracy": 0.5994020926756353
+            },
+            "opening": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08751837243855697,
+              "mrr": 0.5207560601199788,
+              "positions": 843,
+              "top1_accuracy": 0.32147093712930014,
+              "top3_accuracy": 0.6702253855278766,
+              "top5_accuracy": 0.7793594306049823
+            }
+          },
+          "rating_bucket": {
+            "1000-1199": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.1070956817700393,
+              "mrr": 0.4806857685210371,
+              "positions": 1252,
+              "top1_accuracy": 0.3218849840255591,
+              "top3_accuracy": 0.5726837060702875,
+              "top5_accuracy": 0.6725239616613419
+            },
+            "1200-1399": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10592575503045941,
+              "mrr": 0.46603147574881715,
+              "positions": 3190,
+              "top1_accuracy": 0.3072100313479624,
+              "top3_accuracy": 0.5479623824451411,
+              "top5_accuracy": 0.6495297805642634
+            }
+          }
+        },
+        "evaluation_seconds": 18.84305845000199,
+        "invalid_targets": 0,
+        "legal_prediction_rate": 1.0,
+        "mean_true_move_probability": 0.10625550475534783,
+        "milliseconds_per_position": 4.242021262945068,
+        "mrr": 0.47016186173504126,
+        "positions": 4442,
+        "top1_accuracy": 0.31134624043223774,
+        "top3_accuracy": 0.554930211616389,
+        "top5_accuracy": 0.6560108059432688
+      },
+      "training": {
+        "artifact_bytes": 219046,
+        "candidate_rows": 202430,
+        "matrix_build_seconds": 21.11455037599808,
+        "negative_rows": 178267,
+        "peak_rss_mb": 770.1875,
+        "positive_rows": 24163,
+        "training_seconds": 4.357971398996597
+      },
+      "validation": {
+        "breakdowns": {
+          "color": {
+            "black": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10697772510261018,
+              "mrr": 0.46403415299975903,
+              "positions": 2455,
+              "top1_accuracy": 0.3071283095723014,
+              "top3_accuracy": 0.5384928716904277,
+              "top5_accuracy": 0.6460285132382892
+            },
+            "white": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09696658679674278,
+              "mrr": 0.4572206199212004,
+              "positions": 2071,
+              "top1_accuracy": 0.2974408498309995,
+              "top3_accuracy": 0.5393529695799131,
+              "top5_accuracy": 0.6518590053114437
+            }
+          },
+          "eco": {
+            "A00": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0822707082498231,
+              "mrr": 0.4585673732123152,
+              "positions": 146,
+              "top1_accuracy": 0.2945205479452055,
+              "top3_accuracy": 0.5547945205479452,
+              "top5_accuracy": 0.6575342465753424
+            },
+            "A40": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09850271780995655,
+              "mrr": 0.4756033746160244,
+              "positions": 453,
+              "top1_accuracy": 0.31567328918322296,
+              "top3_accuracy": 0.5629139072847682,
+              "top5_accuracy": 0.6622516556291391
+            },
+            "B10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08931485299539646,
+              "mrr": 0.4516232251956011,
+              "positions": 806,
+              "top1_accuracy": 0.29280397022332505,
+              "top3_accuracy": 0.5248138957816377,
+              "top5_accuracy": 0.641439205955335
+            },
+            "B12": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.11134659258451846,
+              "mrr": 0.4524104528491618,
+              "positions": 554,
+              "top1_accuracy": 0.296028880866426,
+              "top3_accuracy": 0.5216606498194946,
+              "top5_accuracy": 0.6263537906137184
+            },
+            "B13": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10463611859175034,
+              "mrr": 0.4594973099147672,
+              "positions": 190,
+              "top1_accuracy": 0.3,
+              "top3_accuracy": 0.5368421052631579,
+              "top5_accuracy": 0.631578947368421
+            },
+            "B18": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.1249634176546726,
+              "mrr": 0.4599829771274283,
+              "positions": 124,
+              "top1_accuracy": 0.3225806451612903,
+              "top3_accuracy": 0.5161290322580645,
+              "top5_accuracy": 0.6290322580645161
+            },
+            "D00": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.1589957300063073,
+              "mrr": 0.5028214168203442,
+              "positions": 356,
+              "top1_accuracy": 0.34831460674157305,
+              "top3_accuracy": 0.5786516853932584,
+              "top5_accuracy": 0.6629213483146067
+            },
+            "D06": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07318192930900054,
+              "mrr": 0.45337411429539776,
+              "positions": 92,
+              "top1_accuracy": 0.2826086956521739,
+              "top3_accuracy": 0.4891304347826087,
+              "top5_accuracy": 0.6847826086956522
+            },
+            "D07": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0777698951520848,
+              "mrr": 0.4615859357284431,
+              "positions": 79,
+              "top1_accuracy": 0.3037974683544304,
+              "top3_accuracy": 0.5316455696202531,
+              "top5_accuracy": 0.6708860759493671
+            },
+            "D10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.05979011402342095,
+              "mrr": 0.42653816073668355,
+              "positions": 165,
+              "top1_accuracy": 0.2727272727272727,
+              "top3_accuracy": 0.503030303030303,
+              "top5_accuracy": 0.593939393939394
+            },
+            "D15": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10263642149206975,
+              "mrr": 0.39415331498736483,
+              "positions": 81,
+              "top1_accuracy": 0.2345679012345679,
+              "top3_accuracy": 0.4567901234567901,
+              "top5_accuracy": 0.5925925925925926
+            },
+            "D20": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10515614346409609,
+              "mrr": 0.45583951661049327,
+              "positions": 642,
+              "top1_accuracy": 0.29750778816199375,
+              "top3_accuracy": 0.5295950155763239,
+              "top5_accuracy": 0.6557632398753894
+            }
+          },
+          "phase": {
+            "endgame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.11587487599397325,
+              "mrr": 0.4652062197093174,
+              "positions": 862,
+              "top1_accuracy": 0.3039443155452436,
+              "top3_accuracy": 0.5324825986078886,
+              "top5_accuracy": 0.6682134570765661
+            },
+            "middlegame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.10466796020452958,
+              "mrr": 0.4444374045975701,
+              "positions": 2767,
+              "top1_accuracy": 0.2909288037585833,
+              "top3_accuracy": 0.5178894109143477,
+              "top5_accuracy": 0.6190820383086375
+            },
+            "opening": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08243893800470888,
+              "mrr": 0.5076273016279831,
+              "positions": 897,
+              "top1_accuracy": 0.3377926421404682,
+              "top3_accuracy": 0.6098104793756968,
+              "top5_accuracy": 0.7212931995540691
+            }
+          },
+          "rating_bucket": {
+            "1000-1199": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.1030427564785394,
+              "mrr": 0.46209610773269855,
+              "positions": 4432,
+              "top1_accuracy": 0.30415162454873645,
+              "top3_accuracy": 0.5408393501805054,
+              "top5_accuracy": 0.6484657039711191
+            },
+            "<1000": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07194276244759627,
+              "mrr": 0.4052957446795128,
+              "positions": 94,
+              "top1_accuracy": 0.23404255319148937,
+              "top3_accuracy": 0.44680851063829785,
+              "top5_accuracy": 0.6595744680851063
+            }
+          }
+        },
+        "evaluation_seconds": 18.33198716899642,
+        "invalid_targets": 0,
+        "legal_prediction_rate": 1.0,
+        "mean_true_move_probability": 0.10239684409698645,
+        "milliseconds_per_position": 4.050372772646138,
+        "mrr": 0.46091642719204484,
+        "positions": 4526,
+        "top1_accuracy": 0.3026955368979231,
+        "top3_accuracy": 0.5388864339372514,
+        "top5_accuracy": 0.6486964206805126
+      }
+    },
+    "logistic": {
+      "artifact": "artifacts/solutions/logistic/model.joblib",
+      "test": {
+        "breakdowns": {
+          "color": {
+            "black": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07213832342960959,
+              "mrr": 0.15591234146879748,
+              "positions": 2294,
+              "top1_accuracy": 0.05536181342632956,
+              "top3_accuracy": 0.14472537053182213,
+              "top5_accuracy": 0.2101133391455972
+            },
+            "white": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07796753307128178,
+              "mrr": 0.1683810186558341,
+              "positions": 2148,
+              "top1_accuracy": 0.06797020484171322,
+              "top3_accuracy": 0.16154562383612664,
+              "top5_accuracy": 0.2309124767225326
+            }
+          },
+          "eco": {
+            "A40": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07807459846296522,
+              "mrr": 0.16188715730250844,
+              "positions": 477,
+              "top1_accuracy": 0.06079664570230608,
+              "top3_accuracy": 0.1509433962264151,
+              "top5_accuracy": 0.2138364779874214
+            },
+            "B10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07758958597918744,
+              "mrr": 0.15799383775188147,
+              "positions": 815,
+              "top1_accuracy": 0.05276073619631902,
+              "top3_accuracy": 0.1558282208588957,
+              "top5_accuracy": 0.22208588957055214
+            },
+            "B12": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07022138278857697,
+              "mrr": 0.15570178822763994,
+              "positions": 457,
+              "top1_accuracy": 0.0525164113785558,
+              "top3_accuracy": 0.13785557986870897,
+              "top5_accuracy": 0.21663019693654267
+            },
+            "B13": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07192158828594032,
+              "mrr": 0.15465266247946008,
+              "positions": 263,
+              "top1_accuracy": 0.06463878326996197,
+              "top3_accuracy": 0.13688212927756654,
+              "top5_accuracy": 0.19011406844106463
+            },
+            "B18": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.12492924793182517,
+              "mrr": 0.23596473111060526,
+              "positions": 218,
+              "top1_accuracy": 0.11467889908256881,
+              "top3_accuracy": 0.25229357798165136,
+              "top5_accuracy": 0.3348623853211009
+            },
+            "D00": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.053896044006761075,
+              "mrr": 0.1340508264426324,
+              "positions": 207,
+              "top1_accuracy": 0.05314009661835749,
+              "top3_accuracy": 0.10144927536231885,
+              "top5_accuracy": 0.1642512077294686
+            },
+            "D02": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0709430769589812,
+              "mrr": 0.17436772948734952,
+              "positions": 76,
+              "top1_accuracy": 0.06578947368421052,
+              "top3_accuracy": 0.15789473684210525,
+              "top5_accuracy": 0.23684210526315788
+            },
+            "D06": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.1555296281463562,
+              "mrr": 0.28685351229640366,
+              "positions": 142,
+              "top1_accuracy": 0.16901408450704225,
+              "top3_accuracy": 0.31690140845070425,
+              "top5_accuracy": 0.3732394366197183
+            },
+            "D10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0744624696444865,
+              "mrr": 0.16541711025115494,
+              "positions": 302,
+              "top1_accuracy": 0.0728476821192053,
+              "top3_accuracy": 0.1490066225165563,
+              "top5_accuracy": 0.2152317880794702
+            },
+            "D20": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09287858878790627,
+              "mrr": 0.19639992595211786,
+              "positions": 448,
+              "top1_accuracy": 0.08705357142857142,
+              "top3_accuracy": 0.20089285714285715,
+              "top5_accuracy": 0.29464285714285715
+            },
+            "D30": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.05966898466797079,
+              "mrr": 0.1253233529700417,
+              "positions": 152,
+              "top1_accuracy": 0.019736842105263157,
+              "top3_accuracy": 0.1118421052631579,
+              "top5_accuracy": 0.17763157894736842
+            },
+            "D31": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.028482063800300803,
+              "mrr": 0.10653819657462396,
+              "positions": 86,
+              "top1_accuracy": 0.023255813953488372,
+              "top3_accuracy": 0.08139534883720931,
+              "top5_accuracy": 0.13953488372093023
+            }
+          },
+          "phase": {
+            "endgame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09837387433251915,
+              "mrr": 0.22578812178208924,
+              "positions": 923,
+              "top1_accuracy": 0.08450704225352113,
+              "top3_accuracy": 0.2275189599133261,
+              "top5_accuracy": 0.36511375947995667
+            },
+            "middlegame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08118092874026347,
+              "mrr": 0.16375220950389685,
+              "positions": 2676,
+              "top1_accuracy": 0.06913303437967115,
+              "top3_accuracy": 0.1591928251121076,
+              "top5_accuracy": 0.21300448430493274
+            },
+            "opening": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.029561475286805906,
+              "mrr": 0.08628943103779112,
+              "positions": 843,
+              "top1_accuracy": 0.011862396204033215,
+              "top3_accuracy": 0.051008303677342826,
+              "top5_accuracy": 0.08422301304863583
+            }
+          },
+          "rating_bucket": {
+            "1000-1199": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07564706767189205,
+              "mrr": 0.16217599699619736,
+              "positions": 1252,
+              "top1_accuracy": 0.06309904153354633,
+              "top3_accuracy": 0.14456869009584664,
+              "top5_accuracy": 0.22364217252396165
+            },
+            "1200-1399": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07468634678978964,
+              "mrr": 0.16184984048994205,
+              "positions": 3190,
+              "top1_accuracy": 0.060815047021943576,
+              "top3_accuracy": 0.1561128526645768,
+              "top5_accuracy": 0.21880877742946708
+            }
+          }
+        },
+        "evaluation_seconds": 14.296126041001116,
+        "invalid_targets": 0,
+        "legal_prediction_rate": 1.0,
+        "mean_true_move_probability": 0.07495713079347975,
+        "milliseconds_per_position": 3.2183984783883646,
+        "mrr": 0.1619417693386216,
+        "positions": 4442,
+        "top1_accuracy": 0.061458802341287706,
+        "top3_accuracy": 0.15285907248986944,
+        "top5_accuracy": 0.22017109410175598
+      },
+      "training": {
+        "artifact_bytes": 4731,
+        "candidate_rows": 202430,
+        "matrix_build_seconds": 21.11455037599808,
+        "negative_rows": 178267,
+        "peak_rss_mb": 494.5703125,
+        "positive_rows": 24163,
+        "training_seconds": 7.027767666004365
+      },
+      "validation": {
+        "breakdowns": {
+          "color": {
+            "black": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0736800232572223,
+              "mrr": 0.15969493408908544,
+              "positions": 2455,
+              "top1_accuracy": 0.06395112016293279,
+              "top3_accuracy": 0.13808553971486762,
+              "top5_accuracy": 0.20977596741344195
+            },
+            "white": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.06667682384530288,
+              "mrr": 0.15902201537654787,
+              "positions": 2071,
+              "top1_accuracy": 0.06277160791887977,
+              "top3_accuracy": 0.14582327378078222,
+              "top5_accuracy": 0.20376629647513278
+            }
+          },
+          "eco": {
+            "A00": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0432511658868379,
+              "mrr": 0.11200821144296927,
+              "positions": 146,
+              "top1_accuracy": 0.03424657534246575,
+              "top3_accuracy": 0.0684931506849315,
+              "top5_accuracy": 0.11643835616438356
+            },
+            "A40": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0632931139799758,
+              "mrr": 0.14797292224956865,
+              "positions": 453,
+              "top1_accuracy": 0.05077262693156733,
+              "top3_accuracy": 0.1346578366445916,
+              "top5_accuracy": 0.17880794701986755
+            },
+            "B10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.06006056589885981,
+              "mrr": 0.14231938243498504,
+              "positions": 806,
+              "top1_accuracy": 0.052109181141439205,
+              "top3_accuracy": 0.1141439205955335,
+              "top5_accuracy": 0.17866004962779156
+            },
+            "B12": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07691686361286569,
+              "mrr": 0.1595062947538751,
+              "positions": 554,
+              "top1_accuracy": 0.05595667870036101,
+              "top3_accuracy": 0.14259927797833935,
+              "top5_accuracy": 0.23104693140794225
+            },
+            "B13": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.06109665257447889,
+              "mrr": 0.1568629355440255,
+              "positions": 190,
+              "top1_accuracy": 0.05263157894736842,
+              "top3_accuracy": 0.15789473684210525,
+              "top5_accuracy": 0.21578947368421053
+            },
+            "B18": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.09332279283789223,
+              "mrr": 0.16397405523829534,
+              "positions": 124,
+              "top1_accuracy": 0.08064516129032258,
+              "top3_accuracy": 0.14516129032258066,
+              "top5_accuracy": 0.1935483870967742
+            },
+            "D00": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.12816167160586944,
+              "mrr": 0.23832645521678975,
+              "positions": 356,
+              "top1_accuracy": 0.12359550561797752,
+              "top3_accuracy": 0.23876404494382023,
+              "top5_accuracy": 0.33146067415730335
+            },
+            "D06": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.04800238865777423,
+              "mrr": 0.12518183190826354,
+              "positions": 92,
+              "top1_accuracy": 0.05434782608695652,
+              "top3_accuracy": 0.07608695652173914,
+              "top5_accuracy": 0.14130434782608695
+            },
+            "D07": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.04111822370150791,
+              "mrr": 0.11844693480861616,
+              "positions": 79,
+              "top1_accuracy": 0.0379746835443038,
+              "top3_accuracy": 0.0759493670886076,
+              "top5_accuracy": 0.17721518987341772
+            },
+            "D10": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.02447456144970848,
+              "mrr": 0.08617736255139569,
+              "positions": 165,
+              "top1_accuracy": 0.006060606060606061,
+              "top3_accuracy": 0.05454545454545454,
+              "top5_accuracy": 0.09090909090909091
+            },
+            "D15": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0730559230574707,
+              "mrr": 0.18280982307600038,
+              "positions": 81,
+              "top1_accuracy": 0.08641975308641975,
+              "top3_accuracy": 0.14814814814814814,
+              "top5_accuracy": 0.2222222222222222
+            },
+            "D20": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0775124895423638,
+              "mrr": 0.1714338880491571,
+              "positions": 642,
+              "top1_accuracy": 0.07476635514018691,
+              "top3_accuracy": 0.16043613707165108,
+              "top5_accuracy": 0.22429906542056074
+            }
+          },
+          "phase": {
+            "endgame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.08714285798589858,
+              "mrr": 0.20542166687266203,
+              "positions": 862,
+              "top1_accuracy": 0.0777262180974478,
+              "top3_accuracy": 0.18213457076566125,
+              "top5_accuracy": 0.29814385150812067
+            },
+            "middlegame": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07875855329399935,
+              "mrr": 0.16734870733904122,
+              "positions": 2767,
+              "top1_accuracy": 0.07372605710155403,
+              "top3_accuracy": 0.1590169859053126,
+              "top5_accuracy": 0.21792555113841705
+            },
+            "opening": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.028907579411105704,
+              "mrr": 0.09058897099462061,
+              "positions": 897,
+              "top1_accuracy": 0.017837235228539576,
+              "top3_accuracy": 0.04905239687848383,
+              "top5_accuracy": 0.0858416945373467
+            }
+          },
+          "rating_bucket": {
+            "1000-1199": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.07106268777338444,
+              "mrr": 0.160253906154811,
+              "positions": 4432,
+              "top1_accuracy": 0.06407942238267147,
+              "top3_accuracy": 0.1430505415162455,
+              "top5_accuracy": 0.20780685920577618
+            },
+            "<1000": {
+              "legal_prediction_rate": 1.0,
+              "mean_true_move_probability": 0.0427907134942758,
+              "mrr": 0.11851430803631847,
+              "positions": 94,
+              "top1_accuracy": 0.031914893617021274,
+              "top3_accuracy": 0.07446808510638298,
+              "top5_accuracy": 0.1702127659574468
+            }
+          }
+        },
+        "evaluation_seconds": 14.67030960500415,
+        "invalid_targets": 0,
+        "legal_prediction_rate": 1.0,
+        "mean_true_move_probability": 0.07047551022538705,
+        "milliseconds_per_position": 3.2413410528069266,
+        "mrr": 0.15938702099724616,
+        "positions": 4526,
+        "top1_accuracy": 0.06341140079540433,
+        "top3_accuracy": 0.1416261599646487,
+        "top5_accuracy": 0.20702607158638975
+      }
+    }
+  },
+  "schema_version": 1,
+  "seed": 42,
+  "selected_model": "hist_gradient_boosting",
+  "selection_rule": "validation_top1_then_mrr_then_latency"
+}

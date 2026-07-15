@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "botchess"
+version = "0.1.0"
+description = "Experimentos para modelar estilo de jogo e jogar xadrez em uma interface web local"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["chess", "machine-learning", "behavioral-cloning", "flask"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+  "flask>=3.1,<4",
+  "joblib>=1.3,<2",
+  "numpy>=1.26,<3",
+  "python-chess>=1.999,<2",
+  "scikit-learn>=1.4,<2",
+]
+
+[project.urls]
+Repository = "https://github.com/jhvlima/botChess"
+Issues = "https://github.com/jhvlima/botChess/issues"
+
+[project.scripts]
+botchess-download = "botchess.download:main"
+botchess-demo-model = "botchess.demo:main"
+botchess-prepare = "botchess.data:main"
+botchess-validate = "botchess.validation:main"
+botchess-train = "botchess.training:main"
+botchess-predict = "botchess.predict:main"
+botchess-uci = "botchess.uci:main"
+botchess-web = "botchess.web:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+botchess = ["templates/*.html", "static/*.css", "static/*.js", "static/*.svg"]

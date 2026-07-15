@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <title>Jogar contra o botChess</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">POLÍTICA DE JOGADAS · CHEFEJH</p>
+          <h1>botChess</h1>
+          <p class="subtitle">Jogue contra o modelo que tenta reproduzir seu estilo.</p>
+        </div>
+        <div class="model-pill">
+          <span class="pulse" aria-hidden="true"></span>
+          <span id="model-name">carregando modelo</span>
+        </div>
+      </header>
+
+      <main class="game-layout">
+        <section class="board-panel" aria-labelledby="board-title">
+          <div class="toolbar">
+            <div class="control-group">
+              <label for="human-color">Jogar com</label>
+              <select id="human-color">
+                <option value="white">Brancas</option>
+                <option value="black">Pretas</option>
+              </select>
+            </div>
+            <div class="control-group">
+              <label for="play-mode">
+                Modo do bot <span class="control-hint">· nova partida</span>
+              </label>
+              <select id="play-mode">
+                <option value="coherent" selected>Coerente — estilo + proteção</option>
+                <option value="imitator">Imitador — estilo puro</option>
+              </select>
+            </div>
+            <button id="new-game" class="primary-button" type="button">
+              Nova partida
+            </button>
+            <button id="flip-board" class="icon-button" type="button">
+              Virar tabuleiro
+            </button>
+          </div>
+
+          <h2 id="board-title" class="sr-only">Tabuleiro de xadrez</h2>
+          <div id="status" class="status" role="status" aria-live="polite">
+            Preparando a partida…
+          </div>
+
+          <div class="board-frame">
+            <div id="board" class="board" role="group" aria-label="Tabuleiro de xadrez"></div>
+          </div>
+
+          <p class="board-help">
+            Clique em uma peça e depois na casa de destino. Os círculos indicam
+            os lances permitidos. No teclado, use as setas e pressione Enter.
+          </p>
+        </section>
+
+        <aside class="side-panel" aria-label="Informações da partida">
+          <section class="card players-card">
+            <div class="player-row">
+              <span class="avatar bot-avatar" aria-hidden="true">♞</span>
+              <div>
+                <span class="player-label">BOT</span>
+                <strong>botChess</strong>
+              </div>
+              <span id="bot-color" class="color-chip">—</span>
+            </div>
+            <div class="divider"></div>
+            <div class="player-row">
+              <span class="avatar human-avatar" aria-hidden="true">♙</span>
+              <div>
+                <span class="player-label">VOCÊ</span>
+                <strong>Jogador local</strong>
+              </div>
+              <span id="human-color-label" class="color-chip">—</span>
+            </div>
+          </section>
+
+          <section class="card last-move-card" aria-labelledby="last-move-title">
+            <p id="last-move-title" class="card-label">ÚLTIMA RESPOSTA DO BOT</p>
+            <p id="last-bot-move" class="last-move">Aguardando o primeiro lance</p>
+            <p
+              id="bot-decision"
+              class="decision-note"
+              role="status"
+              aria-live="polite"
+              aria-atomic="true"
+              hidden
+            ></p>
+          </section>
+
+          <section class="card history-card" aria-labelledby="history-title">
+            <div class="card-heading">
+              <h2 id="history-title">Histórico</h2>
+              <span id="result" class="result-chip"></span>
+            </div>
+            <div id="history-scroll" class="history-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Brancas</th>
+                    <th scope="col">Pretas</th>
+                  </tr>
+                </thead>
+                <tbody id="history-body">
+                  <tr class="empty-history">
+                    <td colspan="3">A partida ainda não começou.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </aside>
+      </main>
+    </div>
+
+    <dialog
+      id="promotion-dialog"
+      class="promotion-dialog"
+      aria-labelledby="promotion-title"
+    >
+      <h2 id="promotion-title">Escolha a promoção</h2>
+      <p>Em qual peça o peão deve se transformar?</p>
+      <div class="promotion-options">
+        <button type="button" data-promotion="q" aria-label="Promover para dama">♕</button>
+        <button type="button" data-promotion="r" aria-label="Promover para torre">♖</button>
+        <button type="button" data-promotion="b" aria-label="Promover para bispo">♗</button>
+        <button type="button" data-promotion="n" aria-label="Promover para cavalo">♘</button>
+      </div>
+      <button id="cancel-promotion" class="dialog-cancel" type="button">Cancelar</button>
+    </dialog>
+
+    <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+  </body>
+</html>

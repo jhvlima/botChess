@@ -1,0 +1,38 @@
+# Ambientes e configuração local.
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python, testes e empacotamento.
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# IDE e sistema operacional.
+.idea/
+.vscode/
+.DS_Store
+
+# Dados pessoais, baixados e derivados.
+/partidas/
+/data/
+
+# Modelos são sempre gerados e mantidos localmente.
+/artifacts/*
+!/artifacts/README.md
+*.joblib
+
+# Materiais históricos e checkouts de terceiros não fazem parte do repo.
+/legacy/
+/maia-chess/
+/solutions/maia/colab/
+*.pgn
+*.zip
