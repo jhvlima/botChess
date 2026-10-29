@@ -15,6 +15,8 @@ O repositório não contém partidas pessoais, datasets derivados nem modelos
 treinados com essas partidas. A demonstração usa somente preferências sintéticas
 definidas no próprio código.
 
+![Interface web do botChess com o tabuleiro na posição inicial e o modelo de demonstração sintético](docs/images/botchess-interface.png)
+
 ## Executar a demonstração
 
 É necessário Python 3.10 ou mais recente.
